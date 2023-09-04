@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F28AB2;
+}
+
+.container{
+    margin: 1rem auto;
+    position: relative;
+    width: 580px;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 10px;
+    color: #000;
+    position: absolute;
+}
+
+.person{
+    padding: 1rem ;
+    display: flex;
+}
+
+.person img {
+    display: flex;
+    margin: 1rem ;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+
+.text{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color: #333;
+}
+
+.text p{
+    margin: 0 0 0 10px;
+}
